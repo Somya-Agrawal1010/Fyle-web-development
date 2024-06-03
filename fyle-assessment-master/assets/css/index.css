@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.primary-color {
+  color: #ff3147;
+}
+
+.hero {
+  height: 100%;
+}
+
+.hero-img {
+  padding: 10px;
+  height: 90%;
+}
+
+.hero-desc {
+  height: 100vh;
+}
+
+.hero-heading {
+  color: #ff3147 !important;
+  font-size: 30px;
+}
+
+.services {
+  background-color: #fafafa;
+}
+
+.service-content {
+  margin-top: 6rem;
+}
+
+.contact-btn {
+  background-color: #ff3147;
+  color: white;
+}
+
+.digital-head {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.service-head {
+  font-size: 24px;
+}
+.service-sub {
+  font-size: 45px;
+  font-weight: bold !important;
+}
+
+.feature-head {
+  font-size: 24px;
+  color: #ff3147;
+}
+
+.feature-subhead {
+  font-size: 45px;
+}
+
+.feature-card > h2 {
+  font-size: 20px;
+}
+
+.feature-card > div {
+  height: 72px;
+  width: 72px;
+}
+
+.feature-container {
+  margin: 7rem auto;
+}
+
+.project-img > img {
+  width: 770px;
+  height: 567px;
+}
+
+.project-card {
+  font-size: 20px;
+  border: none !important;
+  transition: 0.5s;
+}
+
+.project-card > h2 {
+  font-size: 20px;
+}
+
+.project-card > p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.project-card:hover {
+  color: white;
+  background-color: #ff3147;
+  cursor: pointer;
+}
+
+.project-card:hover .project-title {
+  color: white !important;
+}
+
+.growth-count {
+  font-size: 45px;
+  font-weight: normal !important;
+}
+
+.growth-line {
+  font-size: 16px;
+}
+
+.growth-card {
+  border: none;
+  cursor: pointer;
+}
+
+.growth-card:hover {
+  box-shadow: 3px 6px 20px #672c2c1f;
+}
+
+.growth-card img {
+  width: 35.68px;
+  height: 35.68px;
+}
+
+.growth-card-container {
+  margin-top: 5rem;
+}
+
+.growth-container {
+  margin: 5rem 0;
+}
+
+.feedback {
+  margin: 8rem 0;
+}
+
+.feedback-desc {
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.client-name {
+  color: #ff3147;
+}
+
+.client {
+  color: #808080;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #ff3147;
+  height: 310px;
+}
+
+footer img {
+  width: 100%;
+}
+
+.project-card {
+  width: 370px;
+  height: 189px;
+  border-radius: 0px !important;
+  background-color: #f6f6f6;
+}
+
+.project-img1 {
+  transition: 0.5s;
+}
+
+.form-container {
+  z-index: 1;
+  width: 450px;
+  height: 362px;
+  left: 33%;
+  display: none;
+  box-shadow: 3px 6px 20px #672c2c1f;
+  background-color: white !important;
+}
+
+.form-container > h3 {
+  font-size: 20px;
+  margin: 0.5rem 1rem;
+}
+
+.form-container input {
+  outline: none;
+  border: none;
+  width: 95%;
+  margin: 0.5rem;
+  padding: 10px 12px;
+  border-bottom: 1px solid #808080;
+}
+
+.name-input {
+  width: 95%;
+  margin: 0.5rem;
+  padding: 10px 12px;
+}
+
+.cross-icon {
+  right: 10px;
+}
+
+.cross-icon > img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.contactform-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: #ff3366;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.hover-card {
+  bottom: 0;
+  z-index: 1;
+  background-color: #ff3147;
+  border-radius: 5px;
+  display: none;
+}
+.hover-card > div > h3 {
+  font-size: 22px;
+}
+
+.hover-card > div > p {
+  font-size: 14px;
+}
+
+.hover-card > div > button {
+  font-size: 14px;
+  color: #ff3147;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+form label {
+  color: #616678;
+  font-size: 14px;
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .hero {
+    height: 100% !important;
+    display: block;
+  }
+  .hero-desc {
+    margin-top: 2rem;
+  }
+
+  .hero-desc > div > h3 {
+    text-align: center !important;
+  }
+
+  .hero-desc > div > h1 {
+    font-size: 35px !important;
+  }
+
+  .hero-desc > div > p {
+    text-align: justify !important;
+    padding: 0 !important;
+  }
+
+  .hero-img > img {
+    height: 80%;
+  }
+
+  .services {
+    margin-top: 13rem;
+    background-color: #f6f6f6;
+  }
+
+  .service-head {
+    text-align: center;
+  }
+
+  .service-sub {
+    font-size: 35px;
+  }
+
+  .service-content {
+    margin: 1rem auto;
+  }
+
+  .feature-subhead {
+    font-size: 35px;
+    margin: 1rem auto !important;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .hero-desc > div > h3 {
+    font-size: 20px !important;
+  }
+
+  .hero-desc > div > h1 {
+    font-size: 25px !important;
+  }
+
+  .services h2 {
+    font-size: 25px;
+  }
+
+  .feature-subhead {
+    font-size: 25px;
+    margin: 1rem auto !important;
+  }
+}
